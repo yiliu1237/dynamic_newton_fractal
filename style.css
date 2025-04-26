@@ -1,0 +1,61 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    background: black;
+    font-family: sans-serif;
+}
+  
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+    z-index: 0;
+}
+
+
+#info-box {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    z-index: 20;
+    pointer-events: none; /* allows interaction with canvas beneath */
+}
+  
+#info-box div {
+    margin-bottom: 4px;
+}
+  
+
+
+#ui-panel {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-size: 14px;
+    z-index: 100; 
+}
+
+#ui-panel input {
+    width: 60px;
+}
