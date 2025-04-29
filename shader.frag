@@ -9,6 +9,10 @@ uniform float u_zoom;
 uniform float u_time;
 uniform vec2 u_offset;
 
+uniform vec3 u_color1;
+uniform vec3 u_color2;
+uniform vec3 u_color3;
+
 const int maxIter = 30;
 const float tol = 1e-4;
 
@@ -78,11 +82,11 @@ vec3 getSoftShadedColor(vec2 z, int iter, int maxIter) {
 
   vec3 base;
   if (d1 < d2 && d1 < d3) {
-    base = vec3(0.9, 0.85, 0.9); // pastel pink
+    base = u_color1;
   } else if (d2 < d3) {
-    base = vec3(0.67, 0.67, 1.0); // lavender
+    base = u_color2;
   } else {
-    base = vec3(0.9, 0.8, 0.9); // beige-gold
+    base = u_color3;
   }
 
   float shade = mix(1.0, 0.2, float(iter) / float(maxIter));

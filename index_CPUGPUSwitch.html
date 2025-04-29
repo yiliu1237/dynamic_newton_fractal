@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Newton Fractal</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="ui-panel">
+    <label for="powerInput">Set Power (0 - 6): </label>
+    <input type="number" id="powerInput" min="0" max="6" step="0.1" value="3">
+    <button onclick="updatePower()">Apply</button>
+  
+    <div id="equation">f(z) = zⁿ · sin(z) - a</div>
+    <div id="currentPowerDisplay" style="margin-top: 8px;">
+      Current Power: n = 3 <br> <br>
+    </div>
+    <div id="renderer"><br>Current Renderer: CPU mode. <br>Press "Space" to switch to GPU mode. <br></div>
+    <div id="navigation"><br>Use AWSD to move left/up/down/right. <br>Use ZX to zoom in/out.</div>
+  </div>
+
+  <script src="CPURenderer_helper.js"></script>
+  <script src="GPURenderer_helper.js"></script>
+  <script src="sketch.js"></script>
+</body>
+</html>

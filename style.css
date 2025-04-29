@@ -59,3 +59,8 @@ canvas {
 #ui-panel input {
     width: 60px;
 }
+
+
+#currentPowerDisplay {
+    font-weight: bold;
+}

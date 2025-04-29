@@ -12,17 +12,61 @@
     <label for="powerInput">Set Power (0 - 6): </label>
     <input type="number" id="powerInput" min="0" max="6" step="0.1" value="3">
     <button onclick="updatePower()">Apply</button>
-  
+    <button onclick="resumeAnimation()">Resume Animation</button>
+
+    <hr style="margin: 10px 0;">
+
+    <div><b>Change Color Theme:</b></div>
+    <button onclick="useDefaultColors()">Default</button>
+    <button onclick="useSunsetColors()">Sunset</button>
+    <button onclick="useOceanColors()">Ocean</button>
+    <button onclick="useRandomColors()">Random</button>
+
+    <hr style="margin: 10px 0;">
+
+    <div><b>Custom Colors:</b></div>
+
+    <!-- Color 1 -->
+    <div>
+      Color 1 (Root 1):
+      R <input type="number" id="c1r" min="0" max="255" value="230" style="width:50px;">
+      G <input type="number" id="c1g" min="0" max="255" value="217" style="width:50px;">
+      B <input type="number" id="c1b" min="0" max="255" value="230" style="width:50px;">
+    </div>
+
+    <!-- Color 2 -->
+    <div>
+      Color 2 (Root 2):
+      R <input type="number" id="c2r" min="0" max="255" value="171" style="width:50px;">
+      G <input type="number" id="c2g" min="0" max="255" value="171" style="width:50px;">
+      B <input type="number" id="c2b" min="0" max="255" value="255" style="width:50px;">
+    </div>
+
+    <!-- Color 3 -->
+    <div>
+      Color 3 (Root 3):
+      R <input type="number" id="c3r" min="0" max="255" value="230" style="width:50px;">
+      G <input type="number" id="c3g" min="0" max="255" value="204" style="width:50px;">
+      B <input type="number" id="c3b" min="0" max="255" value="230" style="width:50px;">
+    </div>
+
+    <br>
+    <button onclick="applyCustomColors()">Apply Custom Colors</button>
+
+    <hr style="margin: 10px 0;">
+
     <div id="equation">f(z) = zⁿ · sin(z) - a</div>
     <div id="currentPowerDisplay" style="margin-top: 8px;">
-      Current Power: n = 3 <br> <br>
+      <b>Current Power: n = 3 <br><br></b>
     </div>
-    <div id="renderer"><br>Current Renderer: GPU mode. <br>Press "Space" to switch to CPU mode. <br></div>
-    <div id="navigation"><br>Use AWSD to move left/up/down/right. <br>Use ZX to zoom in/out.</div>
+
+    <div id="setting">
+      <br><b>W/A/S/D</b> - Move Up/Left/Down/Right  
+      <br><b>Z / X</b> - Zoom In / Out  
+      <br><b>SPACE</b> - Toggle Panel Visibility
+    </div>
   </div>
 
-  <script src="p5.min.js"></script>
-  <script src="CPURenderer_helper.js"></script>
   <script src="GPURenderer_helper.js"></script>
   <script src="sketch.js"></script>
 </body>
