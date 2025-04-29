@@ -35,13 +35,13 @@ It allows you to dynamically control the fractal's shape, color themes, and zoom
 ## Demos & Screenshots
 
 ### Color Switching
-![Color Theme Change](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/demo/changeColor.gif)
+![Color Theme Change](https://raw.githubusercontent.com/yiliu1237/dynamic_newton_fractal/main/demo/changeColor.gif)
 
 ### Power Oscillation
-![Changing Power](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/demo/changePower.gif)
+![Changing Power](https://raw.githubusercontent.com/yiliu1237/dynamic_newton_fractal/main/demo/changePower.gif)
 
 ### Camera Movement
-![Camera Movement](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/demo/movement.gif)
+![Camera Movement](https://raw.githubusercontent.com/yiliu1237/dynamic_newton_fractal/main/demo/movement.gif)
 
 ---
 
