@@ -41,7 +41,6 @@ canvas {
 #info-box div {
     margin-bottom: 4px;
 }
-  
 
 
 #ui-panel {
@@ -56,10 +55,53 @@ canvas {
     z-index: 100; 
 }
 
-#ui-panel input {
-    width: 60px;
+
+#ui-panel:has(input:focus) {
+    box-shadow: 0 0 12px rgba(0, 150, 255, 0.3);
 }
 
+#ui-panel input {
+    width: 60px;
+    border-radius: 4px;
+    padding: 4px;
+    border: 1px solid #999;
+}
+
+
+#ui-panel input:focus {
+    outline: 2px solid #66b2ff;
+    background-color: #f0faff;
+}
+
+
+#ui-panel button {
+    padding: 6px 12px;
+    margin: 4px 0;
+    background: #f0e6d7;
+    color: #333;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+
+#ui-panel button:hover {
+    background: #c8e6ff;
+    color: #000;
+}
+
+
+#ui-panel button:active {
+    background: #89c9ff;
+    transform: scale(0.97);
+}
+
+
+#ui-panel button:not(#applyCustomColors) {
+    font-style: italic;
+}
 
 #currentPowerDisplay {
     font-weight: bold;
