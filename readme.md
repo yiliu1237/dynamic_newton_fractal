@@ -32,7 +32,7 @@ It allows you to dynamically control the fractal's shape, color themes, and zoom
   
 ---
 
-## Demos & Screenshots
+## Demos
 
 ### Color Switching
 ![Color Theme Change](https://raw.githubusercontent.com/yiliu1237/dynamic_newton_fractal/main/demo/changeColor.gif)
@@ -45,8 +45,7 @@ It allows you to dynamically control the fractal's shape, color themes, and zoom
 
 ---
 
-### Fractal Previews
-
+## Fractal Previews
 
 <table>
   <tr>
