@@ -44,21 +44,21 @@ It allows you to dynamically control the fractal's shape, color themes, and zoom
 ![Camera Movement](https://raw.githubusercontent.com/yiliu1237/dynamic_newton_fractal/main/demo/movement.gif)
 
 ---
-
 ## Fractal Previews
-
-<table>
-  <tr>
-    <td><img src="https://raw.githubusercontent.com/yiliu1237/dynamic_newton_fractal/main/demo/img1.png" width="200"></td>
-    <td><img src="https://raw.githubusercontent.com/yiliu1237/dynamic_newton_fractal/main/demo/img2.png" width="200"></td>
-    <td><img src="https://raw.githubusercontent.com/yiliu1237/dynamic_newton_fractal/main/demo/img3.png" width="200"></td>
-  </tr>
-  <tr>
-    <td><img src="https://raw.githubusercontent.com/yiliu1237/dynamic_newton_fractal/main/demo/img4.png" width="200"></td>
-    <td><img src="https://raw.githubusercontent.com/yiliu1237/dynamic_newton_fractal/main/demo/img5.png" width="200"></td>
-    <td><img src="https://raw.githubusercontent.com/yiliu1237/dynamic_newton_fractal/main/demo/img6.png" width="200"></td>
-  </tr>
-</table>
+<p align="center">
+  <table>
+    <tr>
+      <td><img src="https://raw.githubusercontent.com/yiliu1237/dynamic_newton_fractal/main/demo/img1.png" width="500"></td>
+      <td><img src="https://raw.githubusercontent.com/yiliu1237/dynamic_newton_fractal/main/demo/img2.png" width="500"></td>
+      <td><img src="https://raw.githubusercontent.com/yiliu1237/dynamic_newton_fractal/main/demo/img3.png" width="500"></td>
+    </tr>
+    <tr>
+      <td><img src="https://raw.githubusercontent.com/yiliu1237/dynamic_newton_fractal/main/demo/img4.png" width="500"></td>
+      <td><img src="https://raw.githubusercontent.com/yiliu1237/dynamic_newton_fractal/main/demo/img5.png" width="500"></td>
+      <td><img src="https://raw.githubusercontent.com/yiliu1237/dynamic_newton_fractal/main/demo/img6.png" width="500"></td>
+    </tr>
+  </table>
+</p>
 
 ---
 
